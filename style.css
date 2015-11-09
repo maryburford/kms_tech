@@ -15,8 +15,16 @@ body {
 }
 
 #audio {
-	display: block;
-	position: fixed;
-	left: 150vw;
-	opacity: 0;
+	display: none;
+}
+
+@media (max-device-width: 770px) {
+	body {
+		background-size: 61.8vw;
+	}
+	#honk {
+		bottom: 80px;
+		margin-left: -20px;
+		left: 50%;
+	}
 }
